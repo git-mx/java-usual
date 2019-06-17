@@ -50,5 +50,6 @@ public class Daemon {
         thread2.setDaemon(true);
         thread2.start();
         thread1.start();
+        //System.exit(0);
     }
 }

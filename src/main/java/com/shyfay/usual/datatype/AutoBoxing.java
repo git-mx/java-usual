@@ -29,7 +29,16 @@ public class AutoBoxing {
         //TODO 是以Integer XXX = new Integer(200)的形式在堆内存分配一块内存区域用于存放XXX,当两个对象
         //TODO 进行==比较时，无论它们的值是否相等都是不成立的。==本质上比较的是比较参与比较的两个变量的内存起始地址是否一样。
         //TODO Long类型也和Integer一样，在范围之类是在栈区分配内存，再次定义值相同的变量时也不会新分配内存
-        //TODO 所以g==(a+b)是成立的。但是g.equals(a+b)是false因为equals用于两个不同类型的值进行比较时是恒不成立的
+        //TODO 所以g==(a+b)是成立的。但是g.equals(a+b)是false因为equals用于两个不同类型的值进行比较时是恒不成立的，
+        //TODO 之所以成立是因为 a和b都是基本数据类型（String不是），对于基本数据类型而言，JVM在编译期会将用到基本数据类型的地方
+        //TODO 替换成变量本身的值，然后这里还发生了一次自动类型转换及将(a+b)自动转换成Long类型的变量，这样就相当于两个基本数据类型
+        //TODO Long类型的数据进行比较了，只要值是一样的==判断肯定为真，自动类型转换也是发生在程序编译期。String类型则不行比如下面的代码段
+        String stra = "HelloWorld";
+        String strb = "Hello";
+        String strc = "World";
+        String strd = strb + strc;
+        System.out.println(stra == strd);
+        System.exit(0);
         //TODO 对于两个类型相同的封装类型的值比较千万不要用==，一定要用equals，对于不同两个类型不同的值新型比较时千万不要
         //TODO 直接使用equals进行比较，一定要把其中一个强制转换后再使用equals进行比较。
     }
