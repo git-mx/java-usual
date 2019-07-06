@@ -5,7 +5,7 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.FutureTask;
 
 /**
- * JAVA有三种方式来创建线程，第一种就是集成Thread类，第二种就是实现Runnable接口
+ * JAVA有三种方式来创建线程，第一种就是继承Thread类，第二种就是实现Runnable接口
  * 第三种就是使用Future和Callable结合实现，
  * JAVA5提供了Future接口来代替Callable接口里call方法的返回值，并且为Future接口提供了一个实现类FutureTask，
  * 这个实现类既实现了Future接口，还实现了Runnable接口，因此可以作为Thread类的target。在Future接口里定义了
