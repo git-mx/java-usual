@@ -26,23 +26,38 @@ import java.util.concurrent.FutureTask;
  * @author mx
  * @since 2019/6/17
  */
-public class MainTest {
+public class FutureTest {
     public static void main(String[] args) {
 //        new MyThread().start();
 //        new MyRunnable().run();
-        FutureTask<Integer> future = new FutureTask<Integer>(
-            (Callable<Integer>)() -> {
+        Callable<Integer> callable = new Callable<Integer>() {
+            @Override
+            public Integer call() throws Exception {
                 Integer result = 0;
                 Random random = new Random(1);
                 for(int i=0; i<10000000; i++){
                     result = random.nextInt(10000000);
-                    if(result == 5 || result == 15 || result ==25){
+                    if(result == 5 || result == 15 || result == 25){
                         return result;
                     }
                 }
-                return 0;
+                return result;
             }
-        );
+        };
+        FutureTask<Integer> future = new FutureTask<Integer>(callable);
+//        FutureTask<Integer> future = new FutureTask<Integer>(
+//            (Callable<Integer>)() -> {
+//                Integer result = 0;
+//                Random random = new Random(1);
+//                for(int i=0; i<10000000; i++){
+//                    result = random.nextInt(10000000);
+//                    if(result == 5 || result == 15 || result ==25){
+//                        return result;
+//                    }
+//                }
+//                return 0;
+//            }
+//        );
         new Thread(future, "没有返回值的线程").start();
         try{
             System.out.println("子线程的返回值：" + future.get());
