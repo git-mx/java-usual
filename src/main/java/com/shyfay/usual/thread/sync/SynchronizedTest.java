@@ -1,7 +1,7 @@
 package com.shyfay.usual.thread.sync;
 
 /**
- * 在JVM中，对象在内存中的布局分为三块区域：对象头数据区域、实例变量数据区与和填充数据区域。
+ * 在JVM中，对象在内存中的布局分为三块区域：对象头数据区域（Mark Word）、实例变量数据区与和填充数据区域。
  * 对象头数据区域：HotSpot虚拟机中如果是普通对象那么对象头会占用8个字节，如果是数组对象则会占用12个字节
  *  -4个字节用于存储对象自身的运行时数据，如哈希码（HashCode）、GC分带年龄、锁状态标识、线程持有的锁、偏向线程ID、偏向时间戳等等
  *  -4个字节用于存储类型指针，即对象指向它的类的元数据指针，JVM就是通过这4个字节的数据来确定对象是哪个类的实例。
@@ -27,6 +27,10 @@ package com.shyfay.usual.thread.sync;
  * 在字节码中对应了monitorenter指令和monitorexit指令
  * 对于synchronized关键字作用于方法时的底层实现是：
  * 通过方法在方法区标志ACC_SYNCHRONIZED来判断方法是否是一个同步方法，在知道这个方法是一个同步方法后创建一个monitor进行上面的同步过程。
+ *
+ * ReentrantLock也是同步的实现方式，只不过它是类，有的面试官会问synchronized与ReentrantLock的区别，他们的本质区别是：
+ * ReentrantLock是一个类，而synchronized是一个关键字，ReentrantLock提供了一些扩展性
+ * 他们的实现机制也不一样 ReentrantLock底层调用的是Unsafe的park方法加锁，synchronized操作的应该是对象头中Mark Word
  * @author mx
  * @since 2019/7/6
  */
