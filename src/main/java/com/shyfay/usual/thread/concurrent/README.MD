@@ -1,0 +1,13 @@
+本包用于演示concurrent包里面的工具  https://blog.csdn.net/qq_27378875/article/details/81610696
+concurrent包是JAVA提供的多线程相关的工具包，其中包含
+阻塞队列BlockingQueue
+并发导航映射ConcurrentNavigableMap, ConcurrentHashMap等，支持多线程下的同步访问，是线程安全的 HashMap就不是线程安全的
+闭锁CountDownLatch 
+栅栏CyclicBarrier 
+交换机Exchanger 
+信号量Semaphore
+执行器服务ExecutorService
+预执行FutureTask
+分叉执行ForkJoinPool
+读写锁lock
+原子类AtomicInteger等

@@ -25,10 +25,19 @@ import java.util.concurrent.TimeUnit;
  * 如果是并发量不高，但是任务执行时间长的要分两种情况，如果是IO操作较多的业务（IO操作并不占CPU资源），可以把线程数设置大一点，如果是计算量大的
  * （需要CPU资源的），可以把线程数设置小一点，减少线程上下文切换
  * 如果是并发量高，而且又耗时的操作，则应该从架构上去提高性能，而不是从线程池上
+ * 缓冲队列BlockingQueue
+ * ArrayBlockingQueue(int i)：规定大小的BolockingQueue，构造时必须制定大小，起所含的对象是FIFO顺序排列的，是典型的生产者-消费者模型，
+ *   一般的操作是一个线程调用put方法往队列里添加元素，一个线程调用take方法从队列里取出元素，ArrayBlockingQueue有两个Condition，一个是notEmpty一个是notFull。
+ *   当队列满时，这时会阻塞调用其put方法的线程，直到队列有空的位置。当队列为空时会阻塞调用take方法的线程，直到队列有至少一个元素
+ * LinkedBlockingQueue()或者(int i)：当指定大小时与ArrayBlockingQueue差不多，当不指定大小时队列的最大元素个数是Integer.MAX_VALUE.其元素是FIFO顺序排列的
+ * PriorityBlockingQueue()或者(int i):类似于LinkedBlockingQueue，但其所含对象的排序不是FIFO，而是依据对象的自然顺序或者构造函数的Comparator决定。
+ *   所以它的元素必须实现Comparable接口
+ * SynchronizedQueue()：特殊的BlockingQuque，对其元素的操作必须是put和take交替进行。
+ * DelayQueue()：这个队列里的元素都会在元素指定的时间后过期，过期的元素在对队列做take操作的时候会被释放掉，过期时间是调用元素的getDelay()方法
  * @author mx
  * @since 2019/7/26
  */
-public class MainTest {
+public class ThreadPoolExecutorTest {
     public static void main(String[] args) {
         ThreadPoolExecutor executor = new ThreadPoolExecutor(5, 10, 200, TimeUnit.MILLISECONDS, new ArrayBlockingQueue<>(5));
         for(int i=0; i<15; i++){
