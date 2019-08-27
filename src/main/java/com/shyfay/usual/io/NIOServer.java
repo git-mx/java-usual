@@ -51,6 +51,10 @@ import java.util.Iterator;
  *    9.异步读取客户端消息到缓冲区
  *    10.对Buffer编解码，处理半包消息，将解码成功的消息封装成Task
  *    11.将应答消息编码成Buffer，调用SocketChannel的write方法将消息异步发送给客户端。
+ *
+ *    NIO面临的问题
+ *    -NIO由于存在缓存池的大小限制和网速的不均匀会造成一次读的操作放入缓存池中的数据不完整，就形成了断包的问题
+ *    -同理如果一次性读入两个及以上的数据时，则无法分辨两个数据包的界限问题，这就是粘包
  * https://www.cnblogs.com/sally-zhou/p/6442468.html
  * @author mx
  * @since 2019/7/29
