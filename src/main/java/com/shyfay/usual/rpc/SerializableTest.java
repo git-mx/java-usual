@@ -28,7 +28,7 @@ public class SerializableTest {
         }
         //将对象序列化到文件
         try{
-            ObjectOutputStream os = new ObjectOutputStream(new FileOutputStream("D:/files/Serializable.txt"));
+            ObjectOutputStream os = new ObjectOutputStream(new FileOutputStream("C:/Users/xue.a.mu/test/serializable.txt"));
             os.writeObject(userList);
             os.close();
         }catch(FileNotFoundException e){
@@ -38,7 +38,7 @@ public class SerializableTest {
         }
         //将文件内容反序列化成对象
         try{
-            ObjectInputStream is = new ObjectInputStream(new FileInputStream("D:/files/Serializable.txt"));
+            ObjectInputStream is = new ObjectInputStream(new FileInputStream("C:/Users/xue.a.mu/test/serializable.txt"));
             ArrayList<User> list = new ArrayList<User>();
             list = (ArrayList<User>) is.readObject();
             for(User item : list){

@@ -10,6 +10,7 @@ import java.io.Serializable;
  */
 @Data
 public class User implements Serializable {
+//public class User {
     private static final long serialVersionUID = 1L;
     private Integer id;
     private String name;
