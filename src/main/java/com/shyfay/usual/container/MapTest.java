@@ -1,6 +1,11 @@
 package com.shyfay.usual.container;
 import java.util.*;
 
+/**
+ *  Map中的putIfAbsent、computeIfAbsent、computeIfPresent、compute
+ * @Author muxue
+ * @Since 7/20/2020
+ */
 public class MapTest {
     public static void main(String[] args){
         //TODO Map中key不可重复，但是value可以重复

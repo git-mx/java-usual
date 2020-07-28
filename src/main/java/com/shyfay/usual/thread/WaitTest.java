@@ -24,6 +24,7 @@ public class WaitTest {
                             System.out.println("AAAA:" + i);
                             TimeUnit.MILLISECONDS.sleep(100);
                             if(i==3){
+                                //让出锁，这时thread2会拿到锁
                                 lock.wait();
                             }
                         }

@@ -18,7 +18,7 @@ public class CollectionUtilsTest {
             user.setId(i);
             user.setName("name" + i);
             user.setSex("sex" + i);
-            user.setAge("age" + i);
+            user.setAge(i);
             user.setAddress("address" + i);
             user.setJob("job" + i);
             userList.add(user);

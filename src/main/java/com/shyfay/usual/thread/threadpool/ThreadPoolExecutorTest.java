@@ -42,6 +42,7 @@ public class ThreadPoolExecutorTest {
         ThreadPoolExecutor executor = new ThreadPoolExecutor(5, 10, 200, TimeUnit.MILLISECONDS, new ArrayBlockingQueue<>(5));
         for(int i=0; i<15; i++){
             MyTask task = new MyTask(i);
+            //将任务添加到线程池
             executor.execute(task);
             System.out.println("线程池中的线程数：" + executor.getPoolSize()
                     + "，队列中等待执行的线程数：" + executor.getQueue().size()

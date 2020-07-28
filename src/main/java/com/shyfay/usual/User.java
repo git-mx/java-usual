@@ -15,8 +15,13 @@ public class User implements Serializable {
     private Integer id;
     private String name;
     private String sex;
-    private String age;
+    private Integer age;
     private String address;
     private String job;
     private String test;
+
+    public User(){}
+    public User(Integer id){
+        this.id = id;
+    }
 }

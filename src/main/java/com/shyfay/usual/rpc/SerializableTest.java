@@ -20,7 +20,7 @@ public class SerializableTest {
             user = new User();
             user.setId(i);
             user.setName("aaaa" + i);
-            user.setAge("bbbb" + i);
+            user.setAge(i);
             user.setSex("cccc" + i);
             user.setJob("dddd" + i);
             user.setAddress("eeee" + i);

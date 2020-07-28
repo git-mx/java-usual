@@ -5,11 +5,11 @@ package com.shyfay.usual.accessprivileges;
  * @since 2019/6/27
  */
 public class ClassA {
-    public String publicStr = "AAAA";
-    private String privateStr = "BBBB";
-    public static String staticStr = "CCCC";
-    String defaultStr = "DDDD";
-    protected String protectedStr = "EEEE";
+    public String publicStr = "publicStr";
+    private String privateStr = "privateStr";
+    public static String staticStr = "staticStr";
+    String defaultStr = "defaultStr";
+    protected String protectedStr = "protectedStr";
 
     public String getPrivateStr() {
         return privateStr;
