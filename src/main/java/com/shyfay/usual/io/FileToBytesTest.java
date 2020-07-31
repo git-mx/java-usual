@@ -13,7 +13,7 @@ import java.io.IOException;
  */
 public class FileToBytesTest {
     public static void main(String[] args) throws IOException {
-        File file = new File("C:\\Users\\xue.a.mu\\0000\\vcrm\\TLMALL\\service\\pttl-contract\\template\\pdf\\letterToClient_81.pdf");
+        File file = new File("");
         byte[] resultBytes;
         FileInputStream fis;
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
