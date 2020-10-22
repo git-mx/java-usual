@@ -12,6 +12,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * 2.Synchronizde锁的释放是JVM自己控制的（即代码块或者同步方法执行完毕或者抛出异常时锁被JVM释放）
  *   而Lock的释放是由程序员自己写释放锁的代码去释放
  * 3.Lock可以提供能细粒度的锁控制，比如如果获取锁失败是否立即返回，或者控制获取锁时等待一定得时间
+ * ReentrantLock是一种可重入的悲观锁
  * @Author muxue
  * @Since 7/24/2020
  */

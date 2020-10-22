@@ -57,8 +57,8 @@ public class FunctionInterfaceTest {
         for(int i:numbers){
             intList.add(i);
         }
-        Predicate<Integer> p1 = n -> n>3;
-        Predicate<Integer> p2 = n -> n <9;
+        Predicate<Integer> p1 = n -> n > 3;
+        Predicate<Integer> p2 = n -> n < 9;
         Predicate<Integer> p3 = n -> n%2 == 0;
         List<Integer> filteredList = intList.stream().filter(p1.and(p2).and(p3.negate()).and(Predicate.isEqual(7))).collect(Collectors.toList());
         System.out.println(filteredList);

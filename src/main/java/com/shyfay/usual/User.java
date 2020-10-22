@@ -1,6 +1,8 @@
 package com.shyfay.usual;
 
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.io.Serializable;
 
@@ -9,9 +11,11 @@ import java.io.Serializable;
  * @since 2019/7/18
  */
 @Data
-public class User implements Serializable {
+public class User {
+//@Getter
+//@Setter
 //public class User {
-    private static final long serialVersionUID = 1L;
+    //private static final long serialVersionUID = 1L;
     private Integer id;
     private String name;
     private String sex;

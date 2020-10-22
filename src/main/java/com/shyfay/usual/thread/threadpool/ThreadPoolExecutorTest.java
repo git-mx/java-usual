@@ -34,6 +34,8 @@ import java.util.concurrent.TimeUnit;
  *   所以它的元素必须实现Comparable接口
  * SynchronizedQueue()：特殊的BlockingQuque，对其元素的操作必须是put和take交替进行。
  * DelayQueue()：这个队列里的元素都会在元素指定的时间后过期，过期的元素在对队列做take操作的时候会被释放掉，过期时间是调用元素的getDelay()方法
+ * 注意，真实的情况下，一定要慎用JDK自带的使用Executors构造的线程池，一定要使用ThreadPoolExecutor自己构建线程池
+ * https://blog.csdn.net/f641385712/article/details/83656170
  * @author mx
  * @since 2019/7/26
  */

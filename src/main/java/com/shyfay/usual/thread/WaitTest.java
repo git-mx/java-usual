@@ -8,7 +8,9 @@ import java.util.concurrent.TimeUnit;
  * thread2都持有同步锁lock，所以只有等到thread2执行完释放同步锁时thread1才能获得该同步锁继续执行
  * 由此可知，wait()方法会释放当前线程的同步锁，而notify()方法则不会释放当前线程持有的同步锁
  * 记住：任何JAVA对象都拥有wait和notify方法。
- * wati() notify() notifyAll() 方法必须在同步语句块中被定义，JVM的硬性规定
+ * wait() notify() notifyAll() 方法必须在同步语句块中被定义，JVM的硬性规定
+ * synchronized类的DOC里明确指出wait方法存在虚假唤醒的情况，JDK里也给出了解决虚假唤醒的解决办法：
+ * 建议将wait方法放到while循环里面
  * @author mx
  * @since 2019/7/6
  */

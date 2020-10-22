@@ -31,6 +31,10 @@ package com.shyfay.usual.thread.sync;
  * ReentrantLock也是同步的实现方式，只不过它是类，有的面试官会问synchronized与ReentrantLock的区别，他们的本质区别是：
  * ReentrantLock是一个类，而synchronized是一个关键字，ReentrantLock提供了一些扩展性
  * 他们的实现机制也不一样 ReentrantLock底层调用的是Unsafe的park方法加锁，synchronized操作的应该是对象头中Mark Word
+ * synchronized是一种可重入的悲观锁
+ * 悲观锁：先锁了再去执行业务代码
+ * 乐观锁：执行执行业务代码，如果资源被别的线程占用则执行失败 CAS（Atomic Compare and Swap）就是一种乐观锁，
+ *        AtomicInteger就是一种标准的乐观锁
  * @author mx
  * @since 2019/7/6
  */
