@@ -1,5 +1,13 @@
 package com.shyfay.usual.jvm;
 
+import com.shyfay.usual.Person;
+import com.shyfay.usual.User;
+
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicReference;
+
 /**
  * @Notes java对象可以分成两种类型：值类型和引用类型
  * 值类型有：byte short int long float double char boolean
@@ -38,5 +46,15 @@ package com.shyfay.usual.jvm;
  * @Since 9/7/2020
  */
 public class ReferenceTest {
-
+    public static void main(String[] args) {
+        Person p1 = new Person("p1", 1);
+        Person p2 = new Person("p2", 2);
+        AtomicReference<Person> ar = new AtomicReference(p1);
+        System.out.println(ar.get().getAge());
+        p1.setAge(3);
+        //比较两个对象在内存中的地址是否相等，如果不等则将引用指向新的对象，并且保证操作的原子性，保证线程安全
+        ar.compareAndSet(p1, p2);
+        Person p3 = ar.get();
+        System.out.println(p3.getAge());
+    }
 }

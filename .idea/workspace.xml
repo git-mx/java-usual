@@ -8,45 +8,11 @@
   <component name="ChangeListManager">
     <list default="true" id="beabb7a9-09e3-44f8-aafe-60213e7be2f9" name="Default Changelist" comment="y">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/BIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/delegate/DynamicDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/delegate/jdk/DynamicDelegate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/delegate/MyInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/delegate/jdk/MyInvocationHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/java7/FileChannelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/java7/FileChannelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/java8/FunctionInterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/java8/FunctionInterfaceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/other/DeceptionJVM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/base/FanXing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/other/TryCatchFinally.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/base/TryCatchFinally.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/Atomic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/Atomic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/FutureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/future/FutureTaskTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/JoinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/JoinTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/WaitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/WaitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/sync/ReentrantLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/sync/ReentrantLockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/sync/SynchronizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/sync/SynchronizedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/threadpool/ThreadPoolExecutorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/threadpool/ThreadPoolExecutorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shyfay/usual/BIOServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shyfay/usual/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shyfay/usual/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shyfay/usual/delegate/DynamicDelegate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shyfay/usual/delegate/MyInvocationHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shyfay/usual/io/FileToBytesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shyfay/usual/io/FileToBytesTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shyfay/usual/java7/FileChannelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shyfay/usual/java7/FileChannelTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shyfay/usual/other/DeceptionJVM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shyfay/usual/other/TryCatchFinally.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shyfay/usual/test/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shyfay/usual/test/MainTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shyfay/usual/thread/Atomic$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shyfay/usual/thread/Atomic$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shyfay/usual/thread/Atomic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shyfay/usual/thread/Atomic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shyfay/usual/thread/FutureTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shyfay/usual/thread/FutureTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shyfay/usual/thread/JoinTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shyfay/usual/thread/JoinTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shyfay/usual/thread/JoinTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shyfay/usual/thread/JoinTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shyfay/usual/thread/WaitTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shyfay/usual/thread/WaitTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shyfay/usual/thread/WaitTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shyfay/usual/thread/WaitTest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shyfay/usual/thread/WaitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shyfay/usual/thread/WaitTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shyfay/usual/thread/sync/ReentrantLockTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shyfay/usual/thread/sync/ReentrantLockTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shyfay/usual/thread/sync/ReentrantLockTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shyfay/usual/thread/sync/ReentrantLockTest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shyfay/usual/thread/sync/ReentrantLockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shyfay/usual/thread/sync/ReentrantLockTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shyfay/usual/thread/sync/SynchronizedTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shyfay/usual/thread/sync/SynchronizedTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shyfay/usual/thread/threadpool/ThreadPoolExecutorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shyfay/usual/thread/threadpool/ThreadPoolExecutorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/java8/TimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/java8/TimeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/jvm/ReferenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shyfay/usual/jvm/ReferenceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/java-usual.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shyfay/usual/java8/TimeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shyfay/usual/java8/TimeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shyfay/usual/jvm/ReferenceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shyfay/usual/jvm/ReferenceTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -70,10 +36,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/MainTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/concurrent/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="770">
+              <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,55 +48,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/future/java8/CallableTask.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/threadpool/MyTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="26">
+              <caret line="7" column="15" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/util/concurrent/CompletableFuture.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/threadpool/ThreadPoolExecutorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30651">
-              <caret line="1868" column="43" selection-start-line="1868" selection-start-column="43" selection-end-line="1868" selection-end-column="43" />
+            <state relative-caret-position="283">
+              <caret line="53" column="28" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/future/java8/CompletionServiceDemo.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/jvm/ReferenceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="73" column="62" selection-start-line="73" selection-start-column="61" selection-end-line="73" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/future/java8/FutureDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/future/java8/FutureTaskDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/lang3/UtilsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-374">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="442">
+              <caret line="44" column="16" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,10 +78,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/lang3/StringUtilsTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/Atomic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="18" column="73" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
+            <state relative-caret-position="367">
+              <caret line="72" column="9" selection-start-line="57" selection-start-column="7" selection-end-line="72" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/delegate/jdk/DynamicDelegate1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -156,14 +125,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/collection4/ListUtilsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="25" column="40" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/lang3/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -180,10 +147,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Fork</find>
-      <find>, 2,</find>
-      <find>List&lt;String</find>
-      <find>X_OUTSYSTEM_USERID</find>
       <find>pttl</find>
       <find>identityHashCode</find>
       <find>hashCode</find>
@@ -210,6 +173,10 @@
       <find>distinct</find>
       <find>随机</find>
       <find>RandomStringUtils</find>
+      <find>Bag</find>
+      <find>Duration</find>
+      <find>Reference</find>
+      <find>implements Runnable</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\xue.a.mu\1111\gihub\java-usual</dir>
@@ -221,10 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/collection4/readme.md" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/collection4/BagTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/collection4/BidiMapTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/collection4/MultiValueMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/collection4/MultiSet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/collection4/MultiSetTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/collection4/BoundedCollectionTest.java" />
@@ -268,14 +231,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/collection4/ListUtilsTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/collection4/MultiKeyMapTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shyfay/usual/jvm/ReferenceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shyfay/usual/jvm/FinalizeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shyfay/usual/java8/FunctionInterfaceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shyfay/usual/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shyfay/usual/delegate/jdk/MyInvocationHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shyfay/usual/java8/TimeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/lang3/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shyfay/usual/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shyfay/usual/jvm/ReferenceTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="9" />
     <option name="width" value="1920" />
     <option name="height" value="1041" />
@@ -288,8 +255,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -335,38 +300,20 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="usual" type="462c0819:PsiDirectoryNode" />
-              <item name="apachecommons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-usual" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-usual" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="usual" type="462c0819:PsiDirectoryNode" />
-              <item name="apachecommons" type="462c0819:PsiDirectoryNode" />
-              <item name="collection4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-usual" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-usual" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="usual" type="462c0819:PsiDirectoryNode" />
-              <item name="apachecommons" type="462c0819:PsiDirectoryNode" />
-              <item name="lang3" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603334511238" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609914079297" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -402,34 +349,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainTest">
+  <component name="RunManager" selected="Application.ReferenceTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DynamicDelegate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shyfay.usual.delegate.jdk.DynamicDelegate" />
-      <module name="java-usual" />
-      <option name="VM_PARAMETERS" value="-Dsun.misc.ProxyGenerator.saveGeneratedFiles=true" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shyfay.usual.delegate.jdk.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListUtilsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shyfay.usual.apachecommons.collection4.ListUtilsTest" />
+    <configuration name="MainTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shyfay.usual.apachecommons.lang3.MainTest" />
       <module name="java-usual" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shyfay.usual.apachecommons.collection4.*" />
+          <option name="PATTERN" value="com.shyfay.usual.apachecommons.lang3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -465,13 +398,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringJoinerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shyfay.usual.string.StringJoinerTest" />
+    <configuration name="ReferenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shyfay.usual.jvm.ReferenceTest" />
       <module name="java-usual" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shyfay.usual.string.*" />
+          <option name="PATTERN" value="com.shyfay.usual.jvm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shyfay.usual.java8.TimeTest" />
+      <module name="java-usual" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shyfay.usual.java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -511,19 +458,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DynamicDelegate" />
-      <item itemvalue="Application.StringJoinerTest" />
-      <item itemvalue="Application.ListUtilsTest" />
       <item itemvalue="Application.MultiKeyMapTest" />
       <item itemvalue="Application.MainTest" />
+      <item itemvalue="Application.TimeTest" />
+      <item itemvalue="Application.MainTest (1)" />
+      <item itemvalue="Application.ReferenceTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReferenceTest" />
+        <item itemvalue="Application.MainTest (1)" />
+        <item itemvalue="Application.TimeTest" />
         <item itemvalue="Application.MainTest" />
         <item itemvalue="Application.MultiKeyMapTest" />
-        <item itemvalue="Application.ListUtilsTest" />
-        <item itemvalue="Application.StringJoinerTest" />
-        <item itemvalue="Application.DynamicDelegate" />
       </list>
     </recent_temporary>
   </component>
@@ -701,11 +648,21 @@
       <workItem from="1600415776286" duration="1246000" />
       <workItem from="1600679655509" duration="1618000" />
       <workItem from="1603329464500" duration="656000" />
+      <workItem from="1603357933647" duration="1385000" />
+      <workItem from="1603602715012" duration="1319000" />
+      <workItem from="1604471663387" duration="966000" />
+      <workItem from="1604903715949" duration="699000" />
+      <workItem from="1605075478314" duration="2282000" />
+      <workItem from="1606370687669" duration="762000" />
+      <workItem from="1606717733413" duration="616000" />
+      <workItem from="1606976414290" duration="1814000" />
+      <workItem from="1609323946809" duration="699000" />
+      <workItem from="1609900651525" duration="6147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="630977000" />
+    <option name="totallyTimeSpent" value="647666000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -717,10 +674,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.75666076" visible="true" weight="0.29392713" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.75666076" weight="0.34817815" />
       <window_info id="Structure" order="1" sideWeight="0.24333926" side_tool="true" weight="0.29878542" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -728,15 +685,15 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.77264655" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.1545293" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.053285968" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.54706925" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.12611012" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3285968" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.053285968" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.18827708" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.42628774" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -755,7 +712,7 @@
       <window_info anchor="right" id="LuaJ" order="11" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.75666076" visible="true" weight="0.31093118" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.75666076" visible="true" weight="0.34817815" />
       <window_info id="Structure" order="1" sideWeight="0.24333926" side_tool="true" weight="0.29878542" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -763,15 +720,15 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.77264655" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.1545293" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.053285968" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.19005328" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.12611012" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3285968" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.26465365" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.18827708" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.42628774" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -836,207 +793,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/string/SubstringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/string/StringJoinerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/concurrent/blockingqueue/ArrayBlockingQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="78" column="83" selection-start-line="78" selection-start-column="83" selection-end-line="78" selection-end-column="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/WaitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/util/StringJoiner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2023">
-          <caret line="144" column="24" selection-start-line="144" selection-start-column="24" selection-end-line="144" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/base/RuntimeMXBeanTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/base/RuntimeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/datatype/ClassInit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/collection4/SetUtilsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/collection4/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/collection4/MultiKeyMapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/base/Binary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/base/BitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/base/DisplacementOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/base/FanXing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="38" column="2" lean-forward="true" selection-start-line="38" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/base/FanXing1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="47" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/jvm/RuntimeTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/jvm/ObjectTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/jvm/SystemTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/jvm/Mainfest.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/jvm/classloader/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/jvm/classloader/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-334" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/jvm/RuntimeMXBeanTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/jvm/ReferenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="26" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/jvm/FanXing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/jvm/FinalizeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/threadpool/FixedThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/time/FomatterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/java8/OptionalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/java8/LambdaTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1055,20 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/java8/TimeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/java8/StreamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="75" column="17" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1107,17 +849,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/future/java8/CompletableFutureTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="44" column="33" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1156,19 +901,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/MainTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/collection4/BidiMapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="145">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/collection4/BoundedCollectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/collection4/MapUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/collection4/MultiKeyMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/collection4/MultiSetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/collection4/MultiValueMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/collection4/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/collection4/SetUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/lang3/UtilsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
+        <state relative-caret-position="187">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1176,10 +968,142 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/lang3/PariTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/delegate/cdlib/CglibDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/delegate/cdlib/MyMethodInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/delegate/jdk/DynamicDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/io/FileUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/java7/PathTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/java8/StreamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="76" column="99" selection-start-line="76" selection-start-column="94" selection-end-line="76" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/java8/TimeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/lang3/StringUtilsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="73" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
+        <state relative-caret-position="833">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/lang3/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/collection4/ListUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/time/LocalDateTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27132">
+          <caret line="1749" column="18" selection-start-line="1749" selection-start-column="18" selection-end-line="1749" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/collection4/BagTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/threadpool/FixedThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/delegate/jdk/MyInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/delegate/Delegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/delegate/Owner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/delegate/jdk/DynamicDelegate1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -1190,10 +1114,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/collection4/ListUtilsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/apachecommons/lang3/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="40" />
+        <state relative-caret-position="141">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/threadpool/MyTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/threadpool/ThreadPoolExecutorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="53" column="28" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/concurrent/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/thread/Atomic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="72" column="9" selection-start-line="57" selection-start-column="7" selection-end-line="72" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shyfay/usual/jvm/ReferenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="44" column="16" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

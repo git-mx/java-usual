@@ -24,7 +24,9 @@ public class TimeTest {
     public static void main(String[] args) {
         //最准确的获取当地当前时间
         ZoneId shanghai = ZoneId.of("Asia/Shanghai");
-        LocalDateTime localDateTime = LocalDateTime.now(shanghai);
-        System.out.println(localDateTime.format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
+        LocalDateTime localDateTime1 = LocalDateTime.parse("2020-11-11 01:00:00", DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
+        LocalDateTime localDateTime2 = LocalDateTime.parse("2020-11-11 00:00:00", DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
+        System.out.println(localDateTime1.compareTo(localDateTime2));
+
     }
 }
